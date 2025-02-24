@@ -1,16 +1,14 @@
-import Container from "react-bootstrap/Container";
-
 function Header() {
   return (
-    <Container>
-      <p className="fs-2 text-center mb-4">Pricing</p>
-      <p className="text-center text-wrap">
+    <div className='mx-center'>
+      <h1 className='mb-4 overflow-hidden'>Pricing</h1>
+      <p className='text-wrap text-center'>
         Quickly build an effective pricing table for your potential customers
         with this Bootstrap example. It's built with default Bootstrap
         components and utilities with little customization.
       </p>
-    </Container>
-  );
+    </div>
+  )
 }
 
-export default Header;
+export default Header
