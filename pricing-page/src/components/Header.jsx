@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div>
+    <div className='mx-center text-center'>
       <h1 className='mb-4 overflow-hidden'>Pricing</h1>
       <p className='text-wrap'>
         Quickly build an effective pricing table for your potential customers

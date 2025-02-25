@@ -33,7 +33,7 @@ function Footer() {
   return (
     <footer className='py-4'>
       <Container>
-        <Row className='d-flex justify-content-between'>
+        <Row className='justify-content-between'>
           <Col xs={12} md={true}>
             <img
               src='https://getbootstrap.su/docs/5.1/assets/brand/bootstrap-logo.svg'
