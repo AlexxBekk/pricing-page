@@ -33,8 +33,8 @@ function Footer() {
   return (
     <footer className='py-4'>
       <Container>
-        <Row>
-          <Col md={3}>
+        <Row className='d-flex justify-content-between'>
+          <Col xs={12} md={true}>
             <img
               src='https://getbootstrap.su/docs/5.1/assets/brand/bootstrap-logo.svg'
               width='24'
@@ -45,7 +45,7 @@ function Footer() {
           </Col>
 
           {footerNav.map((section, index) => (
-            <Col md={3} key={index}>
+            <Col xs={12} md={true} key={index}>
               <h5 className='text-start overflow-hidden'>
                 {section.sectionTitle}
               </h5>

@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='mx-center text-center'>
       <NavigationBar />
       <Header />
       <PricingCards />
